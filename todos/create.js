@@ -32,10 +32,16 @@ module.exports.create = (event, context, callback) => {
             return;
         }
 
-        const response = {
+        // const response = {
+        //     statusCode: 200,
+        //     body: JSON.stringify(results.Item)
+        // }
+        // callback(null, response);
+        callback(null, {
             statusCode: 200,
-            body: JSON.stringify(results.Item)
-        }
-        callback(null, response);
+            body: JSON.stringify(message),
+            headers: {'Content-Type': 'application/json'}
+        });
     })
 }
+
