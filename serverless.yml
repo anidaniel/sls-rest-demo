@@ -1,3 +1,5 @@
+org: anidaniel
+app: myapp
 service: sls-rest-demo
 frameworkVersion: '2'
 
