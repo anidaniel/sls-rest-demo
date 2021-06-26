@@ -1,0 +1,7 @@
+{
+    "name": "sls-rest-demo",
+    "dependencies": {
+        "aws-sdk": "^2.935.0",
+        "uuid": "^8.3.2"
+    }
+}
